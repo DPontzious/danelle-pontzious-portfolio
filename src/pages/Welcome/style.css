@@ -1,0 +1,27 @@
+
+.welcome{
+    background-image: url('../../components/images/welcomepic.jpeg');
+    background-size: cover;
+}
+.firstCol{
+    font-size: 150px;
+}
+.secCol{
+    font-size: 50px;
+    text-align: center;
+}
+.thirdCol{
+    font-size: 150px;
+}
+.buttonRow{
+    text-align: center;
+    align-content: center;
+}
+#aboutButton{
+    margin-right: 15px;
+    text-align: center;
+}
+.softwareLine{
+    font-size: 25px;
+    ;
+}
