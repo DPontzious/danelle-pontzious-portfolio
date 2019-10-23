@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import './style.css';
-import Nav from "../../components/Nav/index"
+import Nav from "../../components/Nav/index";
 
 class About extends Component {
+    componentDidMount() {
+        document.body.classList.add("background-white");
+    }
+
+    componentWillUnmount() {
+        document.body.classList.remove("background-white");
+    }
     render() {
         return (
             <div>
@@ -16,6 +23,7 @@ class About extends Component {
                     </Col>
                     </Row>
                 </Container>
+
             </div>
         )
     }
