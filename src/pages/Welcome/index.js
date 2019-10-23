@@ -18,7 +18,13 @@ class Welcome extends Component {
             return <Redirect to="/About" />
         }
     }
+    componentDidMount() {
+        document.body.classList.add("background-photo");
+    }
 
+    componentWillUnmount() {
+        document.body.classList.remove("background-photo");
+    }
     render() {
         return (
             < Container className="welcome" >

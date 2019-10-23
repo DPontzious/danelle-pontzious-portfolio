@@ -1,5 +1,5 @@
 
-body{
+.background-photo{
     background-image: url('../../components/images/welcomepic.jpeg');
     background-size: cover;
 }
