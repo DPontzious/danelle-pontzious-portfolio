@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import './style.css';
 import Nav from "../../components/Nav/index";
+import Jumbo from "../../components/Jumbo/index";
 
 class About extends Component {
     componentDidMount() {
@@ -14,7 +15,8 @@ class About extends Component {
     render() {
         return (
             <div>
-                <Nav></Nav>
+                <Nav></Nav><Jumbo></Jumbo>
+
                 <Container>
                     <Row>
                         <Col className='aboutMe'>
